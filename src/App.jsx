@@ -15,6 +15,9 @@ const AdmNoticias = () => {
           <button className="menu-item">
             <i className="fas fa-bell"></i> Notícias
           </button>
+          <button className="menu-item">
+            <i className="fas fa-bell"></i> Ocorrencias
+          </button>
         </div>
       </div>
 
