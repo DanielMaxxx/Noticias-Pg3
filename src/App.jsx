@@ -7,17 +7,20 @@ const AdmNoticias = () => {
       <div className="sidebar">
         <div className="profile">
           <img src="WhatsApp Image 2024-09-04 at 19.27.47.jpeg" alt="Profile" className="profile-pic" />
-        </div>
+          </div>
         <div className="menu">
-          <button className="menu-item">
-            <i className="fas fa-home"></i> Home
-          </button>
-          <button className="menu-item">
-            <i className="fas fa-bell"></i> Notícias
-          </button>
-          <button className="menu-item">
-            <i className="fas fa-bell"></i> Ocorrencias
-          </button>
+          <div className="menu-item active">
+            <span className="icon">🏠</span>
+            <p>Home</p>
+          </div>
+          <div className="menu-item">
+            <span className="icon">🔔</span>
+            <p>Notícias</p>
+          </div>
+          <div className="menu-item">
+            <span className="icon">🚨</span>
+            <p>Ocorrencias</p>
+          </div>
         </div>
       </div>
 
